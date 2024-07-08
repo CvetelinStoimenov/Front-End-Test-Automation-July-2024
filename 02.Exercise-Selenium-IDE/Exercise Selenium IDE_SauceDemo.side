@@ -1,0 +1,33 @@
+{
+  "id": "03a02a92-e760-4358-8a2c-8dacc202c581",
+  "version": "2.0",
+  "name": "Exercise: Selenium IDE",
+  "url": "https://www.saucedemo.com",
+  "tests": [{
+    "id": "9fc34d89-b33c-4686-9412-f80835292d98",
+    "name": "3.1.Login with Invalid User and Retry",
+    "commands": []
+  }, {
+    "id": "77d7d86b-e911-4277-847e-41e90e392434",
+    "name": "3.2.Add item to the shopping cart",
+    "commands": []
+  }, {
+    "id": "8b2cf57d-5277-4e7f-919e-815190d2d3aa",
+    "name": "3.3.Remove item from the shopping cart",
+    "commands": []
+  }, {
+    "id": "1caf7300-a729-4a16-9d64-7d0e38ef754d",
+    "name": "3.4.Explore",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "76f19dc8-34e7-43f8-8291-918bbbee5724",
+    "name": "3.Saucedemo",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9fc34d89-b33c-4686-9412-f80835292d98", "77d7d86b-e911-4277-847e-41e90e392434", "8b2cf57d-5277-4e7f-919e-815190d2d3aa", "1caf7300-a729-4a16-9d64-7d0e38ef754d"]
+  }],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/"],
+  "plugins": []
+}

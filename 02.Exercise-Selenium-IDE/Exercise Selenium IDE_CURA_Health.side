@@ -1,0 +1,29 @@
+{
+  "id": "03a02a92-e760-4358-8a2c-8dacc202c581",
+  "version": "2.0",
+  "name": "Exercise: Selenium IDE",
+  "url": "https://katalon-demo-cura.herokuapp.com/",
+  "tests": [{
+    "id": "8e64893d-2bb7-4e15-b2e6-ada160c87bb4",
+    "name": "2.1.Verify the Footer",
+    "commands": []
+  }, {
+    "id": "acbb8f7a-f269-4f50-b332-9949eafc43fb",
+    "name": "2.2.Login and Logout",
+    "commands": []
+  }, {
+    "id": "ec15de55-dc45-4f2a-a94a-67f067af7ae3",
+    "name": "2.3.Make an Appointment",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "335b6e06-cb09-4482-ad91-2a43f970ebe2",
+    "name": "2.CURA Health Care Service",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8e64893d-2bb7-4e15-b2e6-ada160c87bb4", "acbb8f7a-f269-4f50-b332-9949eafc43fb", "ec15de55-dc45-4f2a-a94a-67f067af7ae3"]
+  }],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/"],
+  "plugins": []
+}
