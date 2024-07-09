@@ -6,19 +6,232 @@
   "tests": [{
     "id": "9fc34d89-b33c-4686-9412-f80835292d98",
     "name": "3.1.Login with Invalid User and Retry",
-    "commands": []
+    "commands": [{
+      "id": "a783eada-ee1e-4cda-a2bf-58d85107afbf",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a94f8df-4e36-4368-abaa-6cf6f5931070",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "user123"
+    }, {
+      "id": "6a296595-704b-4ec1-ad3a-3f65bdef4e0f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [],
+      "value": "secret_sauce"
+    }, {
+      "id": "03da7f1b-6718-470c-8f2c-3e7dd45e4bc9",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30ecdd94-0749-46e0-b36a-f661b5f1de1f",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=*[data-test=\"error\"]",
+      "targets": [],
+      "value": "error"
+    }, {
+      "id": "c5521d5e-9770-445e-a27d-0db3e147e3d8",
+      "comment": "",
+      "command": "if",
+      "target": "${error}===\"Epic sadface: Username and password do not match any user in this service\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c38cda4b-e940-4cd6-8ddd-d425b6343e52",
+      "comment": "",
+      "command": "echo",
+      "target": "Wrong username",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e35456d-7cef-4794-87cb-298af156f97a",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "standard_user"
+    }, {
+      "id": "4013d1b0-d6a7-4353-92c9-c61f598af081",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb085cb7-0a00-49ac-9cae-002c4b344866",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8292927b-c233-4ca1-a58a-dbe3a43a568e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"header_container\"]/div[2]/span",
+      "targets": [],
+      "value": "Products"
+    }, {
+      "id": "e48b7bea-447a-4f95-971f-8567fe5250e9",
+      "comment": "",
+      "command": "echo",
+      "target": "Successful login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02d7a3f6-fd97-4198-9612-6137f9bc8084",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }, {
     "id": "77d7d86b-e911-4277-847e-41e90e392434",
     "name": "3.2.Add item to the shopping cart",
-    "commands": []
+    "commands": [{
+      "id": "da69d048-44e3-4b91-a776-8845bf89ef3a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe064750-4067-48d7-bb15-f12d246c7d85",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "standard_user"
+    }, {
+      "id": "48799906-1729-4097-b46c-812128e81f40",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [],
+      "value": "secret_sauce"
+    }, {
+      "id": "7cebfc0c-7f75-4b4f-bbc1-5391d97b5e75",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a350a80-bc26-4621-bfe7-2cb682b22d14",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"add-to-cart-sauce-labs-backpack\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d2333c7-3d5b-4b44-aaad-0fd72114db96",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"shopping_cart_container\"]/a/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b5a7e5f-2496-4221-b373-c61e79455145",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"shopping_cart_container\"]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad5f32b9-a264-46a4-a97a-854d8236c085",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"remove-sauce-labs-backpack\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84ac3818-346e-475c-863f-3441fcc2336c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }, {
-    "id": "8b2cf57d-5277-4e7f-919e-815190d2d3aa",
+    "id": "5581f34e-a3c2-475a-b8eb-02f8a1d4f19c",
     "name": "3.3.Remove item from the shopping cart",
-    "commands": []
-  }, {
-    "id": "1caf7300-a729-4a16-9d64-7d0e38ef754d",
-    "name": "3.4.Explore",
-    "commands": []
+    "commands": [{
+      "id": "f5c97682-1011-4a75-8411-fee40db852fd",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2aa4c1a8-c16d-4253-884e-0172b906e895",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "standard_user"
+    }, {
+      "id": "ca7c6047-bd94-430e-9c4a-44810fa4a7c3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [],
+      "value": "secret_sauce"
+    }, {
+      "id": "a597b69f-17a1-4468-bbf5-4b2d466be297",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2c60cb4-bfcf-4b4c-93b1-5068dc1f1391",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"shopping_cart_container\"]/a/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "259af4f9-c648-4d05-b225-5b818edd6294",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"shopping_cart_container\"]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "613102c2-c0c5-4f9f-8ae8-753a8ff17d73",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"remove-sauce-labs-backpack\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d1bfd94-e6aa-4801-8100-057ce51d1ca4",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"remove-sauce-labs-backpack\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f2394e4-3797-4e20-a246-0df946b9c562",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "76f19dc8-34e7-43f8-8291-918bbbee5724",
@@ -26,8 +239,8 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["9fc34d89-b33c-4686-9412-f80835292d98", "77d7d86b-e911-4277-847e-41e90e392434", "8b2cf57d-5277-4e7f-919e-815190d2d3aa", "1caf7300-a729-4a16-9d64-7d0e38ef754d"]
+    "tests": ["9fc34d89-b33c-4686-9412-f80835292d98", "77d7d86b-e911-4277-847e-41e90e392434", "5581f34e-a3c2-475a-b8eb-02f8a1d4f19c"]
   }],
-  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/"],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/", "https://www.saucedemo.com/"],
   "plugins": []
 }

@@ -5,25 +5,389 @@
   "url": "https://katalon-demo-cura.herokuapp.com/",
   "tests": [{
     "id": "8e64893d-2bb7-4e15-b2e6-ada160c87bb4",
-    "name": "2.1.Verify the Footer",
-    "commands": []
+    "name": "1.1.VerifyFooter",
+    "commands": [{
+      "id": "67547dee-0023-44c5-99b7-69d6f13169e4",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "115b8479-e9f6-4dbb-9ed4-31846c8e1c58",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//strong",
+      "targets": [],
+      "value": "CURA Healthcare Service"
+    }, {
+      "id": "4369e291-7180-4bce-b55b-b61c2a3d9768",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div/p[1]",
+      "targets": [],
+      "value": "Atlanta 550 Pharr Road NE Suite 525\\nAtlanta, GA 30305"
+    }, {
+      "id": "9f710eb4-f4e8-4e67-8ca4-d742ce74bab4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.list-unstyled > li:nth-child(1",
+      "targets": [],
+      "value": " (678) 813-1KMS"
+    }, {
+      "id": "3727dad3-017e-48c2-8e99-d91e92a55ee2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div/ul[1]/li[2]/a",
+      "targets": [],
+      "value": "info@katalon.com"
+    }, {
+      "id": "95852fa0-2d8e-49d9-ab18-26050a7d97e2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-twitter",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c76f448d-49cf-47f4-895b-6303d21c1d72",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-dribbble",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0437df2d-b251-416d-aa6c-1f3fbac32093",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-facebook",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d66d871d-31da-4acb-9083-92f4288718fe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }, {
     "id": "acbb8f7a-f269-4f50-b332-9949eafc43fb",
-    "name": "2.2.Login and Logout",
-    "commands": []
+    "name": "2.1.LoginLogout",
+    "commands": [{
+      "id": "cef3cdbb-ebdc-4fbe-b779-613645dbd853",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "378534c8-750d-4be6-9e1a-dfcf90504f53",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//*[@id=\"btn-make-appointment\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ccb0e70-da80-4917-9e66-5dbb7434fbcb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"btn-make-appointment\"]",
+      "targets": [],
+      "value": "Make Appointment"
+    }, {
+      "id": "320d041b-e7e6-44bf-b7c2-082f073e25d7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"btn-make-appointment\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28a7829b-73a1-4826-9864-0fc24a8e8505",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [],
+      "value": "Login"
+    }, {
+      "id": "3e371e6d-3d63-4321-8333-cf64eb53f3c8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.lead",
+      "targets": [],
+      "value": "Please login to make appointment."
+    }, {
+      "id": "7d8d3491-d882-4292-acbb-aa88dbecc3ed",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//form/div[2]/label",
+      "targets": [],
+      "value": "Username"
+    }, {
+      "id": "fd5b8a93-aa04-460c-aedc-631a2e765eb4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//*[@id=\"txt-username\"]",
+      "targets": [],
+      "value": "John Doe"
+    }, {
+      "id": "282c6104-d23f-4936-9a46-b0d07e17a24e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//form/div[3]/label",
+      "targets": [],
+      "value": "Password"
+    }, {
+      "id": "7f282626-75a7-4f66-a710-1d5da4234e86",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//*[@id=\"txt-password\"]",
+      "targets": [],
+      "value": "ThisIsNotAPassword"
+    }, {
+      "id": "363b8741-45ec-4d24-9e69-c46f3e19bc5e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"btn-login\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bfc86b0-7de7-4d26-894d-5f7e327515e6",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"btn-book-appointment\"]",
+      "targets": [],
+      "value": "Book Appointment"
+    }, {
+      "id": "cdb12403-5a5c-4e21-9cb9-63f07ddb7d6f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"menu-toggle\"]/i",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c75d7089-5b86-4c3e-a2a4-c7d97a83fdac",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"sidebar-wrapper\"]/ul/li[5]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b02a80f6-c343-4c7f-96fb-2c87fa0124e0",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"top\"]/div/h1",
+      "targets": [],
+      "value": "CURA Healthcare Service"
+    }, {
+      "id": "f617f939-351f-4642-9a09-1d673c0f9b01",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"btn-make-appointment\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ea5da73-a027-47ee-9844-25a8459ad7af",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [],
+      "value": "Login"
+    }, {
+      "id": "41682650-b2b9-4b51-afa3-ce3a73537f29",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.lead",
+      "targets": [],
+      "value": "Please login to make appointment."
+    }, {
+      "id": "7137bc21-15d4-4835-bf7f-5eeb54365542",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }, {
     "id": "ec15de55-dc45-4f2a-a94a-67f067af7ae3",
-    "name": "2.3.Make an Appointment",
-    "commands": []
+    "name": "3.1.BookAnAppointment",
+    "commands": [{
+      "id": "bf12e33c-6c3c-4082-9ef0-112167437c40",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fd8f302-23fd-4918-99e5-197afaf97721",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"btn-make-appointment\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76f1c35e-94d6-4757-914a-e87da58ee59e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//*[@id=\"txt-username\"]",
+      "targets": [],
+      "value": "John Doe"
+    }, {
+      "id": "f4d7f310-2df4-4656-89ff-77daa2e0ff89",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//*[@id=\"txt-password\"]",
+      "targets": [],
+      "value": "ThisIsNotAPassword"
+    }, {
+      "id": "8c047840-c41a-4139-80c9-963d67ebeb58",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"btn-login\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84a05813-23d0-49a5-950e-7aa9a51ecd88",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"appointment\"]/div/div/div/h2",
+      "targets": [],
+      "value": "Make Appointment"
+    }, {
+      "id": "521b8934-6efc-4797-8602-e59fdea41dc5",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//*[@id=\"combo_facility\"]",
+      "targets": [],
+      "value": "Hongkong CURA Healthcare Center"
+    }, {
+      "id": "33df7f59-5565-4070-b5be-8e11321a8f64",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"radio_program_none\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8af5499f-e919-4e30-b35c-91f514cac370",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//*[@id=\"txt_visit_date\"]",
+      "targets": [],
+      "value": "08/07/2024"
+    }, {
+      "id": "4990556d-b78b-4d61-895f-7c51ae30cd99",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//*[@id=\"txt_comment\"]",
+      "targets": [],
+      "value": "How cool is that"
+    }, {
+      "id": "ca2a67f6-6bea-4d82-9fc4-61e110b28613",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"btn-book-appointment\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dd6033e-1a2b-44fa-85d5-d0021b3d65df",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"summary\"]/div/div/div[1]/h2",
+      "targets": [],
+      "value": "Appointment Confirmation"
+    }, {
+      "id": "fc43ed50-e1f1-4d64-9602-6ff8f81b0e35",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"facility\"]",
+      "targets": [],
+      "value": "Hongkong CURA Healthcare Center"
+    }, {
+      "id": "d10d0538-6032-4b1b-a7f1-21aeb40b62a0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"hospital_readmission\"]",
+      "targets": [],
+      "value": "No"
+    }, {
+      "id": "e3d0d232-f2f1-4d2e-a9ee-ce0357e19b2c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"program\"]",
+      "targets": [],
+      "value": "None"
+    }, {
+      "id": "a0f9f9b5-ece9-4d24-b43c-4f471c0f07b9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"visit_date\"]",
+      "targets": [],
+      "value": "08/07/2024"
+    }, {
+      "id": "5376b9c2-0d08-4d4a-8809-e9722d9d8978",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"comment\"]",
+      "targets": [],
+      "value": "How cool is that"
+    }, {
+      "id": "653b45af-c536-4cbd-b08b-3bc0d11f6404",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"summary\"]/div/div/div[7]/p/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b55f1111-a541-4896-8c5d-d9b65a199cff",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"top\"]/div/h1",
+      "targets": [],
+      "value": "CURA Healthcare Service"
+    }, {
+      "id": "dfb4163e-7df0-4d6f-8e6b-148d8effa4ae",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"menu-toggle\"]/i",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f44030e4-9079-46d3-bb33-07ea3308be0f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"sidebar-wrapper\"]/ul/li[5]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96e7077b-587f-40f6-b943-8d8206f59fbe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "335b6e06-cb09-4482-ad91-2a43f970ebe2",
-    "name": "2.CURA Health Care Service",
+    "name": "1. Verify the Footer",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["8e64893d-2bb7-4e15-b2e6-ada160c87bb4", "acbb8f7a-f269-4f50-b332-9949eafc43fb", "ec15de55-dc45-4f2a-a94a-67f067af7ae3"]
+    "tests": ["8e64893d-2bb7-4e15-b2e6-ada160c87bb4"]
+  }, {
+    "id": "76079097-a5f2-409c-97db-0133379dd92d",
+    "name": "2. Login and Logout",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["acbb8f7a-f269-4f50-b332-9949eafc43fb"]
+  }, {
+    "id": "a8de7350-d1c5-4c92-87dc-de60d45e765b",
+    "name": "3. Make an Appointment",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ec15de55-dc45-4f2a-a94a-67f067af7ae3"]
   }],
-  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/"],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/", "https://katalon-demo-cura.herokuapp.com/"],
   "plugins": []
 }
