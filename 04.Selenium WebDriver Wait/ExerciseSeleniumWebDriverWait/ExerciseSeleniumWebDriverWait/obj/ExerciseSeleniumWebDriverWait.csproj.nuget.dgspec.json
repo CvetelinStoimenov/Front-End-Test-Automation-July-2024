@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\04.Selenium WebDriver Wait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\04.Selenium WebDriver Wait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\04.Selenium WebDriver Wait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait.csproj",
+        "projectName": "ExerciseSeleniumWebDriverWait",
+        "projectPath": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\04.Selenium WebDriver Wait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait.csproj",
+        "packagesPath": "C:\\Users\\cvete\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\04.Selenium WebDriver Wait\\ExerciseSeleniumWebDriverWait\\ExerciseSeleniumWebDriverWait\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cvete\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
