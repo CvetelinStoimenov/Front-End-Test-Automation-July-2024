@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
+using System.Collections.ObjectModel;
+using System.Data.Common;
 using System.Xml.Linq;
 
 namespace WorkingWithHTMLElements
@@ -17,13 +18,6 @@ namespace WorkingWithHTMLElements
             driver.Navigate().GoToUrl(baseUrl);
         }
 
-        private string Email()
-        {
-            Random random = new Random();
-            int num = random.Next(1000, 9999);
-            return "pesho" + num.ToString() + "@gmail.com";
-        }
-
         [OneTimeTearDown]
         public void OneTimeTearDown()
         {
@@ -32,39 +26,46 @@ namespace WorkingWithHTMLElements
         }
 
         [Test]
-        public void Login_WithValidDate()
+        public void ExtractInformationFromWebTables()
         {
+            // Identify the web table on the home page
+            IWebElement productTable = driver.FindElement(By.XPath("//*[@id='bodyContent']/div/div[2]/table"));
 
-            var myAccountButton = driver.FindElement(By.XPath("//span//a[@id='tdb3']"));
-            myAccountButton.Click();
-            var continueButton = driver.FindElement(By.XPath("//a[@id='tdb4']"));
-            continueButton.Click();
-            driver.FindElement(By.XPath("//input[@value='m']")).Click();
-            driver.FindElement(By.XPath("//input[@name='firstname']")).SendKeys("Pesho");
-            driver.FindElement(By.XPath("//input[@name='lastname']")).SendKeys("Petrov");
-            driver.FindElement(By.XPath("//input[@id='dob']")).SendKeys("07/16/1932");
-            driver.FindElement(By.XPath("//input[@name='email_address']")).SendKeys(Email());
-            driver.FindElement(By.XPath("//input[@name='company']")).SendKeys("Pasho&Co");
-            driver.FindElement(By.XPath("//input[@name='street_address']")).SendKeys("Pesho Avn.");
-            driver.FindElement(By.XPath("//input[@name='postcode']")).SendKeys("1000");
-            driver.FindElement(By.XPath("//input[@name='city']")).SendKeys("NYC");
-            driver.FindElement(By.XPath("//input[@name='state']")).SendKeys("NY");
+            // Find all rows in the web table
+            ReadOnlyCollection<IWebElement> tableRows = productTable.FindElements(By.XPath("//tbody/tr"));
 
-            //IWebElement countryDropdown = driver.FindElement(By.Name("country"));
-            //SelectElement selectCountry = new SelectElement(countryDropdown);
-            //selectCountry.SelectByText("United States");
+            // Path to save csv file
+            string path = System.IO.Directory.GetCurrentDirectory() + "/productInformation.csv";
 
-            new SelectElement(driver.FindElement(By.Name("country"))).SelectByText("United States");
+            // ensures that if a CSV file with the same name already exists in the specified location, it will be deleted before creating a new one
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
 
-            driver.FindElement(By.XPath("//input[@name='telephone']")).SendKeys("0545454521");
-            driver.FindElement(By.XPath("//input[@name='password']")).SendKeys("123456");
-            driver.FindElement(By.XPath("//input[@name='confirmation']")).SendKeys("123456");
-            driver.FindElement(By.XPath("//button[@id='tdb4']")).Click();
+            // Traverse through table rows to find the table columns:
+            // o Loop through each row and then each column within the row.
+            // o Extract the text from each cell, split the text to separate product name and cost, and format it.
+            // o Append the formatted text to the CSV file.
+            foreach (IWebElement trow in tableRows)
+            {
+                // Find all cols in the web table
+                ReadOnlyCollection<IWebElement> tableCols = trow.FindElements(By.XPath("td"));
 
-            Assert.IsTrue(driver.PageSource.Contains("Your Account Has Been Created!"), "Account creation filed.");
-            driver.FindElement(By.XPath("//a[@id='tdb4']")).Click();
-            driver.FindElement(By.XPath("//a[@id='tdb4']")).Click();
-            Console.WriteLine($"Account created with email: {Email()}");
+                foreach (IWebElement tcol in tableCols)
+                {
+                    // Extract product name and cost
+                    string data = tcol.Text;
+                    string[] productInfo = data.Split('\n');
+                    string printProductInfo = productInfo[0].Trim() + ", " + productInfo[1].Trim() + "\n";
+
+                    // Write product information extracted to the file
+                    File.AppendAllText(path, printProductInfo);
+                }
+            }
+
+            Assert.IsTrue(File.Exists(path), "CSV file was not created");
+            Assert.IsTrue(new FileInfo(path).Length > 0, "CSV file is empty");
         }
     }
 }
