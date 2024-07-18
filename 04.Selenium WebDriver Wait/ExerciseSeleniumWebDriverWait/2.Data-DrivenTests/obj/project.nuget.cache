@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y/VSMboCExdZB6R6fia1uXU8X3NBgUkunxOh1at5U2BT6OspOm0zrtOOuMhHr5d4WkdbW66ZOMcZDrQbunziYQ==",
+  "dgSpecHash": "tvAluTEeW9sQ/+Qjr2BcuLHGnjiR2WAGiLdsxVzS09vQRdCO2d8PfdzY4YVMF87wyCOTOit3oAT6R6aRYf7qkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\04.Selenium WebDriver Wait\\ExerciseSeleniumWebDriverWait\\2.Data-DrivenTests\\2.Data-DrivenTests.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,8 @@
     "C:\\Users\\cvete\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\cvete\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\cvete\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
+    "C:\\Users\\cvete\\.nuget\\packages\\selenium.support\\4.22.0\\selenium.support.4.22.0.nupkg.sha512",
+    "C:\\Users\\cvete\\.nuget\\packages\\selenium.webdriver\\4.22.0\\selenium.webdriver.4.22.0.nupkg.sha512",
     "C:\\Users\\cvete\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
