@@ -97,3 +97,7 @@ C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Sele
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\4.WorkingWithAlerts\obj\Debug\net6.0\4.WorkingWithAlerts.pdb
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\4.WorkingWithAlerts\obj\Debug\net6.0\4.WorkingWithAlerts.genruntimeconfig.cache
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\4.WorkingWithAlerts\obj\Debug\net6.0\ref\4.WorkingWithAlerts.dll
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\4.WorkingWithAlerts\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\4.WorkingWithAlerts\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\4.WorkingWithAlerts\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\4.WorkingWithAlerts\bin\Debug\net6.0\WebDriver.dll

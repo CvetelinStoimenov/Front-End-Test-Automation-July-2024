@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SearchProductWithImplicitWait", "1.SearchProductWithImplicitWait\1.SearchProductWithImplicitWait.csproj", "{DD364DCE-3A8B-4B5F-BE59-667CDC7EB423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.SearchProductWithImplicitWait", "1.SearchProductWithImplicitWait\1.SearchProductWithImplicitWait.csproj", "{DD364DCE-3A8B-4B5F-BE59-667CDC7EB423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SearchProductWithExplicitWait", "2.SearchProductWithExplicitWait\2.SearchProductWithExplicitWait.csproj", "{8432F648-9429-4868-A751-F593734B70DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.SearchProductWithExplicitWait", "2.SearchProductWithExplicitWait\2.SearchProductWithExplicitWait.csproj", "{8432F648-9429-4868-A751-F593734B70DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.WorkingWithAlerts", "4.WorkingWithAlerts\4.WorkingWithAlerts.csproj", "{003F4880-7994-4382-991E-88308D9014CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.WorkingWithAlerts", "4.WorkingWithAlerts\4.WorkingWithAlerts.csproj", "{003F4880-7994-4382-991E-88308D9014CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.WorkingWithIFrames", "5.WorkingWithIFrames\5.WorkingWithIFrames.csproj", "{BCBE6D96-E8F3-40B1-97E3-94F9A302CB90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.WorkingWithIFrames", "5.WorkingWithIFrames\5.WorkingWithIFrames.csproj", "{BCBE6D96-E8F3-40B1-97E3-94F9A302CB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.HandlingMultipleWindows", "3.HandlingMultipleWindows\3.HandlingMultipleWindows.csproj", "{CD3B8FF9-9011-42D2-99E8-478C3391B819}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BCBE6D96-E8F3-40B1-97E3-94F9A302CB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCBE6D96-E8F3-40B1-97E3-94F9A302CB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCBE6D96-E8F3-40B1-97E3-94F9A302CB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3B8FF9-9011-42D2-99E8-478C3391B819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3B8FF9-9011-42D2-99E8-478C3391B819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3B8FF9-9011-42D2-99E8-478C3391B819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3B8FF9-9011-42D2-99E8-478C3391B819}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
