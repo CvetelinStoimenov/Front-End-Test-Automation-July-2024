@@ -97,3 +97,9 @@ C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Sele
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\obj\Debug\net6.0\5.WorkingWithIFrames.pdb
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\obj\Debug\net6.0\5.WorkingWithIFrames.genruntimeconfig.cache
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\obj\Debug\net6.0\ref\5.WorkingWithIFrames.dll
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\bin\Debug\net6.0\WebDriver.Support.dll
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\5.WorkingWithIFrames\bin\Debug\net6.0\WebDriver.dll
