@@ -95,9 +95,10 @@ C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Sele
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.HandlingMultipleWindows.AssemblyInfoInputs.cache
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.HandlingMultipleWindows.AssemblyInfo.cs
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.HandlingMultipleWindows.csproj.CoreCompileInputs.cache
-C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.HandlingMultipleWindows.csproj.CopyComplete
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.HandlingMultipleWindows.dll
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\refint\3.HandlingMultipleWindows.dll
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.HandlingMultipleWindows.pdb
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.HandlingMultipleWindows.genruntimeconfig.cache
 C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\ref\3.HandlingMultipleWindows.dll
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.HandlingMultipleWindows.sourcelink.json
+C:\Users\cvete\source\repos\Front-End-Test-Automation-July-2024\06.Exercise Selenium WebDriver Wait\ExerciseSeleniumWaits\3.HandlingMultipleWindows\obj\Debug\net6.0\3.Handli.922BB06D.Up2Date

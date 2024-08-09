@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\06.Exercise Selenium WebDriver Wait\\ExerciseSeleniumWaits\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBE6D96-E8F3-40B1-97E3-94F9A302CB90}|5.WorkingWithIFrames\\5.WorkingWithIFrames.csproj|c:\\users\\cvete\\source\\repos\\front-end-test-automation-july-2024\\06.exercise selenium webdriver wait\\exerciseseleniumwaits\\5.workingwithiframes\\workingwithiframes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBE6D96-E8F3-40B1-97E3-94F9A302CB90}|5.WorkingWithIFrames\\5.WorkingWithIFrames.csproj|solutionrelative:5.workingwithiframes\\workingwithiframes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD364DCE-3A8B-4B5F-BE59-667CDC7EB423}|1.SearchProductWithImplicitWait\\1.SearchProductWithImplicitWait.csproj|c:\\users\\cvete\\source\\repos\\front-end-test-automation-july-2024\\06.exercise selenium webdriver wait\\exerciseseleniumwaits\\1.searchproductwithimplicitwait\\searchproductwithimplicitwait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD364DCE-3A8B-4B5F-BE59-667CDC7EB423}|1.SearchProductWithImplicitWait\\1.SearchProductWithImplicitWait.csproj|solutionrelative:1.searchproductwithimplicitwait\\searchproductwithimplicitwait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003F4880-7994-4382-991E-88308D9014CE}|4.WorkingWithAlerts\\4.WorkingWithAlerts.csproj|c:\\users\\cvete\\source\\repos\\front-end-test-automation-july-2024\\06.exercise selenium webdriver wait\\exerciseseleniumwaits\\4.workingwithalerts\\workingwithalerts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003F4880-7994-4382-991E-88308D9014CE}|4.WorkingWithAlerts\\4.WorkingWithAlerts.csproj|solutionrelative:4.workingwithalerts\\workingwithalerts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkingWithIFrames.cs",
+              "DocumentMoniker": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\06.Exercise Selenium WebDriver Wait\\ExerciseSeleniumWaits\\5.WorkingWithIFrames\\WorkingWithIFrames.cs",
+              "RelativeDocumentMoniker": "5.WorkingWithIFrames\\WorkingWithIFrames.cs",
+              "ToolTip": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\06.Exercise Selenium WebDriver Wait\\ExerciseSeleniumWaits\\5.WorkingWithIFrames\\WorkingWithIFrames.cs",
+              "RelativeToolTip": "5.WorkingWithIFrames\\WorkingWithIFrames.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:41:49.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkingWithAlerts.cs",
+              "DocumentMoniker": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\06.Exercise Selenium WebDriver Wait\\ExerciseSeleniumWaits\\4.WorkingWithAlerts\\WorkingWithAlerts.cs",
+              "RelativeDocumentMoniker": "4.WorkingWithAlerts\\WorkingWithAlerts.cs",
+              "ToolTip": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\06.Exercise Selenium WebDriver Wait\\ExerciseSeleniumWaits\\4.WorkingWithAlerts\\WorkingWithAlerts.cs",
+              "RelativeToolTip": "4.WorkingWithAlerts\\WorkingWithAlerts.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T15:43:44.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchProductWithImplicitWait.cs",
+              "DocumentMoniker": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\06.Exercise Selenium WebDriver Wait\\ExerciseSeleniumWaits\\1.SearchProductWithImplicitWait\\SearchProductWithImplicitWait.cs",
+              "RelativeDocumentMoniker": "1.SearchProductWithImplicitWait\\SearchProductWithImplicitWait.cs",
+              "ToolTip": "C:\\Users\\cvete\\source\\repos\\Front-End-Test-Automation-July-2024\\06.Exercise Selenium WebDriver Wait\\ExerciseSeleniumWaits\\1.SearchProductWithImplicitWait\\SearchProductWithImplicitWait.cs",
+              "RelativeToolTip": "1.SearchProductWithImplicitWait\\SearchProductWithImplicitWait.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:09:00.7Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
