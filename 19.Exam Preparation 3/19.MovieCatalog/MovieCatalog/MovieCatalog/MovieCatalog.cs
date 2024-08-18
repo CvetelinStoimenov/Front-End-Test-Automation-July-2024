@@ -21,9 +21,9 @@ namespace MovieCatalog
         {
             var chromeOptions = new ChromeOptions();
             chromeOptions.AddUserProfilePreference("profile.password_manager_enabled", false);
+            chromeOptions.AddArgument("--disable-search-engine-choice-screen");
 
-            string chromeDriverPath = @"C:\Program Files\ChromeDriver\chromedriver.exe";
-            driver = new ChromeDriver(chromeDriverPath, chromeOptions);
+            driver = new ChromeDriver(chromeOptions);
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
@@ -43,6 +43,10 @@ namespace MovieCatalog
             // Fill in login details
             driver.FindElement(By.Id("form2Example17")).SendKeys("movie@movie.com");
             driver.FindElement(By.Id("form2Example27")).SendKeys("123456");
+
+            // Scroll to the login button
+            var loginBtnSubmit = driver.FindElement(By.CssSelector("button.btn.warning[type='submit']"));
+            actions.MoveToElement(loginBtnSubmit).Perform();
             driver.FindElement(By.CssSelector("button.btn.warning[type='submit']")).Click();
         }
 
@@ -193,6 +197,7 @@ namespace MovieCatalog
         {
             // Quit the driver after all tests are executed
             driver.Quit();
+            driver.Dispose();
         }
 
         private string GenerateRandomString(int length)

@@ -8,6 +8,7 @@ namespace MovieCatalogPomTests.Pages
 
         protected WebDriverWait wait;
 
+
         protected static string BaseUrl = "http://moviecatalog-env.eba-ubyppecf.eu-north-1.elasticbeanstalk.com";
 
         public BasePage(IWebDriver driver)

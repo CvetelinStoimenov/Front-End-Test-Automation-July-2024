@@ -40,7 +40,7 @@ namespace MovieCatalogPomTests.Tests
             deletePage = new DeletePage(driver);
 
             loginPage.OpenPage();
-            loginPage.PerformLogin("examPrepIIIUser@gmail.com", "123456");
+            loginPage.PerformLogin("movie@movie.com", "123456");
 		    actions = new Actions(driver);
 		}
 

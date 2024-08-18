@@ -1,10 +1,15 @@
-﻿namespace MovieCatalogPomTests.Pages
+﻿using OpenQA.Selenium.Interactions;
+using System;
+
+namespace MovieCatalogPomTests.Pages
 {
     public class LoginPage : BasePage
     {
+        private Actions actions;
+
         public LoginPage(IWebDriver driver) : base(driver)
         {
-            
+            actions = new Actions(driver);
         }
 
         public string Url = BaseUrl + "/User/Login";
@@ -28,6 +33,7 @@
             PasswordInput.Clear();
             PasswordInput.SendKeys(password);
 
+            actions.MoveToElement(LoginButton).Perform();
             LoginButton.Click();
         }
     }
